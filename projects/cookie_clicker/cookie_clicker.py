@@ -8,7 +8,7 @@ import time
 URL = "https://orteil.dashnet.org/experiments/cookie/"
 
 
-chrome_driver_path = "C:\\Users\\Legion\\PycharmProjects\\helloWorld\\chromedriver.exe"
+chrome_driver_path = "chromedriver.exe"
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.get(URL)
 
@@ -21,7 +21,7 @@ for item in driver.find_elements(By.CSS_SELECTOR, "#store div"):
     items_list.append(item.get_attribute("id"))
 
 # Setting time intervals
-five_minutes_rule = time.time() + 60 * 60
+five_minutes_rule = time.time() + 5 * 60
 five_seconds_rule = time.time() + 5
 
 
