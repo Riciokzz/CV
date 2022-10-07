@@ -58,7 +58,7 @@ while time.time() < five_minutes_rule:
 
         # Buying the most expensive upgrade
         most_expensive_upgrade = max(affordable_upgrade)
-        print(most_expensive_upgrade)
+        #print(most_expensive_upgrade)
         purchase_id = affordable_upgrade[most_expensive_upgrade]
         driver.find_element(By.ID, purchase_id).click()
 
