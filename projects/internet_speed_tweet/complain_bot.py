@@ -17,7 +17,7 @@ twitter_username = input("Username: ")
 twitter_pass = input("Password: ")
 
 # Setting up
-chrome_driver_path = "C:\\Users\\Legion\\PycharmProjects\\helloWorld\\chromedriver.exe"
+chrome_driver_path = "chromedriver.exe"
 
 class InternetSpeedTwitterBot:
     def __init__(self, driver_path):
