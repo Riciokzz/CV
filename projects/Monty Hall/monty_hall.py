@@ -1,14 +1,14 @@
 import random
 
 images = ["🚪", "🐐", "🏆"]
-doors_images = ["🚪", "🚪", "🚪"]
+
 
 
 # create 3 doors
 def shuffle_doors():
     door_list = ["goat", "goat", "prize"]
     random.shuffle(door_list)
-    print(door_list)
+    #print(door_list)
     return door_list
 
 
@@ -24,7 +24,7 @@ def pick_door(doors):
                 else:
                     goat_door = random.choice([i for i in range(0, 3) if i not in [pick - 1, doors.index("prize")]])
                 doors_images[goat_door] = images[1]
-                print("Revealing one door.")
+                print("\nRevealing one door.")
                 print(doors_images)
                 break
             else:
@@ -53,13 +53,18 @@ def change_door(user_pick):
         return user_pick
 
 
-def game_over(doors, user_pick):
+def game_over(doors, user_pick, win):
+    print("\n")
+    doors_images[doors.index("prize")] = images[2]
+    doors_images[doors.index("goat")] = images[1]
+    print(doors_images)
     if doors[user_pick] == "prize":
         print("You win a prize!")
+        win += 1
     else:
         print("You lost, you get a goat.")
-    doors_images[doors.index("prize")] = images[2]
-    print(doors_images)
+        win += 0
+    return win
 
 
 def play_again():
@@ -77,23 +82,24 @@ def game():
     change = change_door(user_pick=user_pick)
     if change != user_pick:
         user_pick = change
-    game_over(doors=doors, user_pick=user_pick)
+    point = game_over(doors=doors, user_pick=user_pick, win=win)
+    return point
 
 
 win = 0
 games_played = 0
 play = True
 while play:
+    doors_images = ["🚪", "🚪", "🚪"]
     print("Pick a door.")
     print("1.🚪 | 2.🚪 | 3.🚪")
-
-    game()
+    games_played += 1
+    win = game()
+    if games_played > 0 and win > 1:
+        print(f"Played times: {games_played}\nWins: {win}\nWinrate: {(win / games_played) * 100}%")
+    else:
+        print(f"Played times: {games_played}\nLose: {games_played-win}\nWinrate: {(win / games_played) * 100}%")
     if play_again():
-        games_played += 1
-        print(games_played)
-        if games_played > 0 and win > 1:
-            print(f"Wins: {win}, winrate: {(games_played / win) * 100}%")
-        doors_images = ["🚪", "🚪", "🚪"]
         play = True
     else:
         play = False
