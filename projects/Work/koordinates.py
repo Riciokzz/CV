@@ -13,7 +13,6 @@ def browse_file():
     file_label.config(text=file_path)
     return file_path
 
-
 def submit():
     x = float(x_entry.get())
     y = float(y_entry.get())
@@ -43,52 +42,55 @@ def submit():
     tk.messagebox.showinfo("Atlikta",
                            f"Atlikta be klaidų. Nuskaityti {file_count} .txt failai. Pridėtos {coordinate_count} koordinatės į {file_path}.")
 
+
 def close_win():
    root.destroy()
 
 root = tk.Tk()
 root.title("Taškų paieška v0.2")
+root.minsize(300,140)
+root.maxsize(300,140)
+
 
 folder_path = ""
 
-folder_browse_button = tk.Button(root, text="Pasirinkti failus", command=browse_folder)
+folder_browse_button = tk.Button(root, text="Pasirinkti failus", command=browse_folder, height=1, width=20)
 folder_browse_button.grid(row=0, column=0)
 
-folder_label = tk.Label(root, text="Nepasirinkta papkė")
+folder_label = tk.Label(root, text="Nepasirinkta papkė", height=1, width=20)
 folder_label.grid(row=0, column=1)
 
-file_browse_button = tk.Button(root, text="Kur išsaugoti", command=browse_file)
+file_browse_button = tk.Button(root, text="Kur išsaugoti", command=browse_file, height=1, width=20)
 file_browse_button.grid(row=1, column=0)
 
-file_label = tk.Label(root, text="Nepasirinktas failas")
+file_label = tk.Label(root, text="Nepasirinktas failas", height=1, width=20)
 file_label.grid(row=1, column=1)
 
-x_label = tk.Label(root, text="X Koordinatė:")
+x_label = tk.Label(root, text="X Koordinatė:", height=1, width=20)
 x_label.grid(row=2, column=0)
 
 x_entry = tk.Entry(root)
 x_entry.grid(row=2, column=1)
+x_entry.insert(0, "0")
 
-y_label = tk.Label(root, text="Y Koordinatė:")
+y_label = tk.Label(root, text="Y Koordinatė:", height=1, width=20)
 y_label.grid(row=3, column=0)
-
 
 y_entry = tk.Entry(root)
 y_entry.grid(row=3, column=1)
 y_entry.insert(0, "0")
 
-
-r_label = tk.Label(root, text="Atstumas m:")
+r_label = tk.Label(root, text="Atstumas m:", height=1, width=20)
 r_label.grid(row=4, column=0)
 
 r_entry = tk.Entry(root)
 r_entry.grid(row=4, column=1)
+r_entry.insert(0, "0")
 
-submit_button = tk.Button(root, text="Ieškoti", command=submit)
-submit_button.grid(row=5, column=0, pady=0)
+submit_button = tk.Button(root, text="Ieškoti", command=submit, height=1, width=20)
+submit_button.grid(row=5, column=0)
 
-close_button = tk.Button(root, text="Uždaryti", command=close_win)
-close_button.grid(row=5, column=1, pady=0)
-
+close_button = tk.Button(root, text="Uždaryti", command=close_win, height=1, width=20)
+close_button.grid(row=5, column=1)
 
 root.mainloop()
