@@ -65,9 +65,9 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c=ListedColormap(('red', 'green', 'blue'))(i), label=j)
-plt.title('Linear Discriminant (Training set)')
-plt.xlabel('PC1')
-plt.ylabel('PC2')
+plt.title('Kernel SVM (Training set)')
+plt.xlabel('Age')
+plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
 
@@ -83,8 +83,8 @@ plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
                 c=ListedColormap(('red', 'green', 'blue'))(i), label=j)
-plt.title('Linear Discriminant (Test set)')
-plt.xlabel('PC1')
-plt.ylabel('PC2')
+plt.title('Kernel SVM (Test set)')
+plt.xlabel('Age')
+plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
