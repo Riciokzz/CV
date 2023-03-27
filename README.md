@@ -14,4 +14,16 @@
 
 <br />
 
-Hi, I'm [Ričardas Poskrebyševas](https://riciokzz.github.io/cv/), a self-taught Python programmer from Lithuania. Skilled in Python, GeoMap, AutoCAD, QGIS and Unity. Strong measurement engineering professional with a Master's degree from VILNIUS TECH university.
+Hi, I'm [Ričardas Poskrebyševas](https://riciokzz.github.io/cv/), a self-taught Python programmer from Lithuania. Strong measurement engineering professional with a Master's degree from VILNIUS TECH university.
+
+---
+
+## Skills
+
+⚡️ Python
+⚡️ GeoMap
+⚡️ AutoCAD
+⚡️ QGIS
+⚡️ Unity
+⚡️ MYSQL
+⚡️ GITHUB
