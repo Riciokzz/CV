@@ -10,7 +10,7 @@
   <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
-![](https://komarev.com/ghpvc/?username=Riciokzz&color=green&color=41fae1&label=PROFILE+VIEWS)
+![](https://komarev.com/ghpvc/?username=Riciokzz&color=green&color=003da6&label=PROFILE+VIEWS)
 
 <br />
 
