@@ -26,4 +26,4 @@ Hi, I'm [Ričardas Poskrebyševas](https://riciokzz.github.io/cv/), a self-taugh
 ⚡️ QGIS\
 ⚡️ Unity\
 ⚡️ MYSQL\
-⚡️ GITHUB\
+⚡️ GITHUB
