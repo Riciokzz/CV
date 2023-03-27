@@ -20,10 +20,10 @@ Hi, I'm [Ričardas Poskrebyševas](https://riciokzz.github.io/cv/), a self-taugh
 
 ## Skills
 
-⚡️ Python
-⚡️ GeoMap
-⚡️ AutoCAD
-⚡️ QGIS
-⚡️ Unity
-⚡️ MYSQL
-⚡️ GITHUB
+⚡️ Python\
+⚡️ GeoMap\
+⚡️ AutoCAD\
+⚡️ QGIS\
+⚡️ Unity\
+⚡️ MYSQL\
+⚡️ GITHUB\
