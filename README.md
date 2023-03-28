@@ -1,4 +1,4 @@
-## Hello - Sveiki - Guten Tag
+# Hello - Sveiki - Guten Tag
 
 <a href="https://www.instagram.com/riciokzz/">
   <img align="left" alt="Abhishek's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
@@ -14,16 +14,46 @@
 
 <br />
 
-Hi, I'm [Ričardas Poskrebyševas](https://riciokzz.github.io/cv/), a self-taught Python programmer from Lithuania. Strong measurement engineering professional with a Master's degree from VILNIUS TECH university.
+## **RESUME OBJECTIVE**
+Experienced Land Surveyor with Programing and Game developing skills looking for new opportunities in IT sector. Skilled in Python, GeoMap, AutoCAD, QGIS and Unity. Strong measurement engineering professional with a Master's degree from VILNIUS TECH university.
 
 ---
 
-## Skills
+## **EXPERIENCE**
+**Land Surveyor**\
+UAB ,,GEOVISATA" / August 2017– current
+- Cadastral measurements of land plots
+- Topographic plans
+- Underground engineering communications
+- Compilation of geodetic photos
+- Marking of coordinated points of plots
+- Supporting and teaching Junior land surveyors
 
-⚡️ Python\
-⚡️ GeoMap\
-⚡️ AutoCAD\
-⚡️ QGIS\
-⚡️ Unity\
-⚡️ MYSQL\
-⚡️ GITHUB
+---
+
+## **EDUCATION**
+**Engineering Sciences**\
+**MASTER**\
+VILNIUS TECH / 2018 – 2020\
+**Measurement Engineering**\
+**BACHELOR**\
+VILNIUS TECH/ 2014 - 2018
+
+---
+
+## **LICENSES & CERTIFICATIONS**
+
+- **The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert**
+  - *Udemy / 2023*
+- **Machine Learning A-Z™: Python & R in Data Science [2023]**
+  - *Udemy / 2023*
+- **Programming for Everybody (Getting Started with Python)**
+  - *University of Michigan certification/ 2021*
+- **Principles of Game Design**
+  - *Michigan State University certification / 2020*
+- **Introduction to Game Development**
+  - *Michigan State University certification / 2020*
+
+---
+
+To check my website just click -> [**Website**](https://riciokzz.github.io/cv/)
