@@ -43,6 +43,8 @@ VILNIUS TECH/ 2014 - 2018
 
 ## **LICENSES & CERTIFICATIONS**
 
+- **CS50's Introduction to Computer Science**
+  - *Harvard University's / 2023*
 - **The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert**
   - *Udemy / 2023*
 - **Machine Learning A-Z™: Python & R in Data Science [2023]**
