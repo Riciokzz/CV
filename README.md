@@ -20,7 +20,7 @@ Experienced Land Surveyor with Programing and Game developing skills looking for
 ---
 
 ## **EXPERIENCE**
-**Land Surveyor**\
+**Senior Land Surveyor**\
 UAB ,,GEOVISATA" / August 2017– current
 - Cadastral measurements of land plots
 - Topographic plans
