@@ -60,4 +60,4 @@ VILNIUS TECH/ 2014 - 2018
 
 ---
 
-To check my website just click -> [**Website**](https://riciokzz.github.io/cv/)
+To check my website just click -> [**Website**](https://riciokzz.github.io/CV/)
